@@ -1,10 +1,22 @@
 body {
     background-color: rgb(202, 202, 250);
-    width: 95%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
 }
+
+#credits {
+    font-family: italic;
+    font-size: 0.75em;
+    margin-bottom: 1em;
+}
+
 header img {
     height: 250px;
     width: 450px;
+}
+
+#cpic {
+    width: 40%;
+    margin-bottom: 3.5em;
 }
