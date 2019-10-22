@@ -3,7 +3,7 @@ var data = [
     {
         name: 'Acura RDX',
         description: 'The all new third-Generation, now has its own dedicated platform and engine, not to mention a great new look.',
-        enginetype: 'Engine: VTEC turbo 2.0-litter ' + 'Horse Power: 272',
+        enginetype: 'VTEC turbo 2.0-litter ' + 'Horse Power: 272',
         yearmodel: 'year: ' + 2019,
         price: 'Price: ' + 37000,
         selector: 'p1'
