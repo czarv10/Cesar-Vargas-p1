@@ -3,14 +3,14 @@ var data = [
     {
         name: 'Acura RDX',
         description: 'The all new third-Generation, now has its own dedicated platform and engine, not to mention a great new look.',
-        enginetype: 'VTEC turbo 2.0-litter ' + 'Horse Power: 272',
-        yearmodel: 'year: ' + 2019,
-        price: 'Price: ' + 37000,
+        enginetype: 'VTEC turbo 2.0-l 272hp',
+        yearmodel: 2019,
+        price: 37000,
         selector: 'p1'
     },
     {
         name: 'Genesis G70',
-        description: '4-door compact executive sedan',
+        description: '4-door compact executive sedan.',
         enginetype: '2.0L 252hp',
         yearmodel: 2019,    
         price: 34900,
@@ -18,23 +18,23 @@ var data = [
     },
     {
         name: 'GMC Sierra',
-        description: '4-door Pick Up Truck',
-        enginetype: 'Engine: 2.7L Turbo ' +  'Horse Power: 450',
-        yearmodel: 'year: ' + 2019,
-        price: 'price:' + 42000,
+        description: '4-door Pick Up Truck.',
+        enginetype: '2.7L Turbo 450hp',
+        yearmodel: 2019,
+        price: 42000,
         selector: 'p3'
     },
     {
         name: 'Honda Passport',
-        description: 'Sporty SUV with plenty of room for adventure',
-        enginetype: 'engine:3.5L Horse Power: 280',
+        description: 'Sporty SUV with plenty of room for adventure.',
+        enginetype: 'engine:3.5L  280hp',
         yearmodel: 2019,
-        price: 338000,
+        price: 38000,
         selector: 'p4'
     },
     {
         name: 'Ford Ranger',
-        description: 'Super Crew Pickup truck, best gas fuel efficiency',
+        description: 'Super Crew Pickup truck, best gas fuel efficiency.',
         enginetype: '2.3L 270hp',
         yearmodel: 2019,
         price: 24000,
@@ -50,10 +50,6 @@ function Package(data) {
     this.yearmodel = data.yearmodel;
     this.price = data.price;
     this.selector = data.selector;
-
-    this.getFormattedYearmodel = function () {
-        return this.yearmodel.toLocaleString();
-    };
 
     this.getFormattedPrice = function() {
         return this.price.toLocaleString();
@@ -81,7 +77,7 @@ function writePackageInfo(package) {
         nameEl.textContent = package.name;
         descEl.textContent = package.description;
         etypeEl.textContent = package.enginetype;
-        ymodelEl.textContent = package.getFormattedYearmodel();
+        ymodelEl.textContent = package.yearmodel;
         priceEl.textContent = package.getFormattedPrice();
 }
 

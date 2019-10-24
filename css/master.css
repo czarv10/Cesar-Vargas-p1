@@ -1,8 +1,10 @@
 body {
     background-color: rgb(202, 202, 250);
+    font-family: Open Sans, sans-serif;
     width: 90%;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 #credits {
@@ -14,9 +16,22 @@ body {
 header img {
     height: 250px;
     width: 450px;
+    margin-top: .05em;
+    margin-bottom: 1em;
 }
 
 #cpic {
     width: 40%;
-    margin-bottom: 3.5em;
+    margin-bottom: 2.5em;
+    margin-top: 1em;
+    box-shadow: -3px 7px rgb(37, 158, 247);
 }
+
+#lastfooter {
+    margin-top: 5em;
+}
+
+div{
+    margin-bottom: .5em;
+}
+
